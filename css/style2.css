@@ -1,0 +1,244 @@
+.addres {
+    background-color: #f2f7fd;
+    padding: 70px 0 80px;
+}
+
+.addres__inner {
+    color: #57758f;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.addres__filial {
+    text-align: center;
+    font-size: 36px;
+    color: #0e3f60;
+}
+
+.addres__map__center {
+    text-align: center;
+    display: flex;
+    margin: 25px auto 25px 39%;
+}
+
+.addres__map__url,
+.addres__map__url2 {
+    text-decoration: none;
+    border: .8px solid #009cd6;
+    border-radius: 7px 0 0 7px;
+    padding: 10px 22px;
+    color: #009cd6;
+    cursor: pointer;
+}
+
+.addres__map__url2 {
+    border-radius: 0px 7px 7px 0px;
+}
+
+.addres__map__url,
+.addres__map__url2:hover {
+    color: white;
+    background: #009cd6;
+}
+
+.addres__more__img {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(370px, 1fr));
+    padding: 10px;
+}
+
+.addres__img__inner {
+    max-width: 366px;
+    background-color: white;
+    overflow: hidden;
+    margin: 15px 10px 15px 10px;
+    box-shadow: 0 14px 28px #e5eef7, 0 10px 10px #e5eef7;
+}
+
+.addres__img {
+    width: 366px;
+    height: 205px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.addres__img:hover {
+    transform: scale(1.1);
+}
+
+.addres__card__inner {
+    padding: 25px;
+}
+
+.addres__title {
+    text-decoration: none;
+    color: #57758f;
+}
+
+.worktime {
+    margin-bottom: 25px;
+}
+
+.addres__metro {
+    display: flex;
+}
+
+.addres__block__color {
+    color: white;
+    font-weight: 600;
+    border-radius: 50%;
+    margin-right: 8px;
+    width: 21px;
+    height: 27px;
+    text-align: center;
+}
+
+.advantage {
+    padding: 80px 0 80px;
+}
+
+.advantage__block {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #57758f;
+    line-height: 30px;
+}
+
+.advantage__title {
+    text-align: center;
+    font-size: 36px;
+    color: #0e3f60;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.advantage__28 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.advantage__card__big {
+    display: flex;
+    border: 5px double #edf3f9;
+    border-color: transparent #edf3f9 #edf3f9 transparent;
+}
+
+.advantage__card__mini {
+    width: 399px;
+    padding: 35px 25px 30px;
+}
+
+.a27 {
+    width: 495px;
+    padding: 35px 25px 30px;
+}
+
+.a28 {
+    display: flex;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+.advantage__card__title {
+    font-size: 20px;
+    color: #0e3f60;
+}
+
+.advantage__card__svg {
+    margin-right: 15px;
+}
+
+.clinik {
+    padding: 80px 0 80px;
+    background-color: #f2f7fd;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #0e3f60;
+}
+
+.clinik6 {
+    font-size: 36px;
+}
+
+.clinik__item__inner {
+    display: flex;
+    margin-top: 30px;
+}
+
+.clinik__item__6 {
+    width: 170px;
+    height: 115px;
+    margin: 0 15px;
+    background-color: white;
+    box-shadow: 0 14px 28px #e5eef7, 0 10px 10px #e5eef7;
+}
+
+.clinik__partner {
+    padding: 38px 0 4px 0;
+}
+
+.license {
+    padding: 85px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.license__img {
+    padding: 30px 15px;
+    box-shadow: 0 14px 28px #e5eef7, 0 10px 10px #e5eef7;
+    margin: 0 10px;
+}
+
+.license__title {
+    color: #0e3f60;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.license__full {
+    margin-top: 38px;
+}
+
+.license__btn {
+    border: 1px solid #009cd6;
+    border-radius: 24px;
+    padding: 10px 45px;
+    text-decoration: none;
+    color: #009cd6;
+}
+
+.license__btn:hover {
+    color: white;
+    background: #009cd6;
+}
+
+.footer {
+    padding: 70px 60px;
+    background-color: azure;
+}
+
+.footer__inner {
+    display: flex;
+}
+
+.footer__item+.footer__item {
+    line-height: 30px;
+    margin-left: 120px;
+}
+
+.footer__titi {
+    font-size: 22px;
+    color: #0e3f60;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.footer__par {
+    text-decoration: none;
+    color: #57758f;
+}
+
+.footer__par:hover {
+    color: red;
+}
